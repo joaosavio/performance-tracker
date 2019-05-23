@@ -1,0 +1,34 @@
+{
+  "name": "performance-tracker",
+  "version": "1.0.0",
+  "description": "Lib to track performance",
+  "author": "João Sávio Ceregatti Longo",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm ci --production=false && npm run lint && npm run test",
+    "lint": "eslint ./",
+    "test": "nyc mocha --recursive ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "test"
+  },
+  "keywords": [
+    "performance",
+    "tracker",
+    "metrics"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "6.1.4",
+    "nyc": "14.1.1",
+    "should": "13.2.3",
+    "sinon": "7.3.2",
+    "eslint": "5.16.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-async-await": "0.0.0",
+    "eslint-plugin-import": "2.17.2",
+    "eslint-plugin-promise": "4.1.1"
+  }
+}
