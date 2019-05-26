@@ -1,5 +1,5 @@
 {
-  "name": "@joaosavio/performance-tracker",
+  "name": "performance-tracker",
   "version": "1.0.0",
   "description": "Lib to track performance",
   "author": "João Sávio Ceregatti Longo",
